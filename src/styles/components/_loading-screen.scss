@@ -1,0 +1,83 @@
+.loading-screen {
+    opacity: 0;
+    visibility: hidden;
+    transition: 300ms ease-out;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    bottom: 0;
+
+    &.active {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    img {
+        margin: 0 auto;
+    }
+
+    .loading-txt {
+        position: absolute;
+        bottom: 12%;
+        right: 25%;
+        color: #000;
+        font-size: 1.5em;
+    }
+
+    .loading-txt div {
+		position: relative;
+		display: inline-block;
+		animation: janimation 2.4s infinite forwards;
+	}
+
+	.loading-txt div.letter_container_1 {
+		animation-delay: 0s;		
+	}	
+
+	.loading-txt div.letter_container_2 {
+		animation-delay: .2s;		
+	}	
+
+	.loading-txt div.letter_container_3 {
+		animation-delay: .4s;		
+	}	
+
+	.loading-txt div.letter_container_4 {
+		animation-delay: .6s;		
+	}	
+
+	.loading-txt div.letter_container_5 {
+		animation-delay: .8s;		
+	}	
+
+	.loading-txt div.letter_container_6 {
+		animation-delay: 1s;		
+	}	
+	.loading-txt div.letter_container_7 {
+		animation-delay: 1.2s;		
+	}
+	.loading-txt div.letter_container_8 {
+		animation-delay: 1.4s;		
+	}
+	.loading-txt div.letter_container_9 {
+		animation-delay: 1.6s;		
+	}
+	.loading-txt div.letter_container_10 {
+		animation-delay: 1.8s;		
+	}
+
+    @keyframes janimation {
+		0% {
+			color: #000;
+		}
+		100% {
+			color: transparent;
+			text-shadow: #666 0 0 10px;
+		}
+	}
+}

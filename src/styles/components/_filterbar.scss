@@ -1,0 +1,56 @@
+.filter-bar {
+    display: flex;
+    justify-content: flex-end;
+    
+    @include tablet {
+        margin-top: rem(50);
+    }
+
+    button {
+        display: flex;
+        align-items: center;
+        
+        &:first-child {
+            margin-right: rem(9);
+        }
+    }
+
+    .year-wrapper {
+        position: relative;
+
+        .sort-icon {
+            transition: 300ms ease-out;
+
+            &.active {
+                transform: rotate(180deg);
+            }
+        }
+
+        .year-options {
+            opacity: 0;
+            visibility: hidden;
+            position: absolute;
+            background-color: #ffff;
+            width: 100%;
+            transition: 300ms ease-out;
+            overflow-y: scroll;
+            max-height: 200px;
+
+            &.active {
+                opacity: 1;
+                visibility: visible;
+            }
+
+            input {
+                border: none;
+                padding: 10px 20px;
+                cursor: pointer;
+
+                &:hover {
+                    color: #ffff;
+                    background-color: $theme-blue;
+                }
+            }
+        }
+    }
+}
