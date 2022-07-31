@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e435644f.css",
+    "main.js": "/static/js/main.5a9d5901.js",
+    "static/media/launch-home.png": "/static/media/launch-home.b539e3f927856018804b.png",
+    "static/media/BrandonGrotesque-Regular.woff": "/static/media/BrandonGrotesque-Regular.feb99ef87c94f69ba387.woff",
+    "static/media/spacex-logo.png": "/static/media/spacex-logo.e755fcbfb1e385f990e4.png",
+    "index.html": "/index.html",
+    "main.e435644f.css.map": "/static/css/main.e435644f.css.map",
+    "main.5a9d5901.js.map": "/static/js/main.5a9d5901.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e435644f.css",
+    "static/js/main.5a9d5901.js"
+  ]
+}
