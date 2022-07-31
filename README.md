@@ -17,7 +17,7 @@ Wanted to somehow make this feel more of an app, so my UX and UI was what made m
 
 ## Technologies used
 
-React, SASS.
+React, SASS, Bootstrap.
 Hooks used useContext, useState, useEffect.
 
 ## Installation 
